@@ -17,5 +17,3 @@ This structure is intended to make the code easier to understand. Additionally, 
 The total volume is approximately **~1000 lines** of raw code.
 
 > P.S. I added "Weapon Soul", it's sort of a buff. It hasn't been implemented yet and doesn't apply to you for now, but you might come across it in the code.
-
-> Ticket opened on June 17, 2026
