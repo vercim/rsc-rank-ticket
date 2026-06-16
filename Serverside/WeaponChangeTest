@@ -1,0 +1,14 @@
+local SSS = game:GetService("ServerScriptService")
+local RS = game:GetService("ReplicatedStorage")
+local WeaponController = require(SSS:WaitForChild('System').WeaponController)
+local CooldownController = require(SSS:WaitForChild('System').CooldownController)
+local remotes = require(RS:WaitForChild('Shared').remotes)
+
+local CD = 5
+
+remotes.weaponChange:connect(function(plr, weaponName)
+	if not CooldownController:CanAction(plr, 'weaponChange') then return end
+	
+	WeaponController:SetDataField(plr, 'weaponType', weaponName)
+	CooldownController:SetCooldown(plr, 'weaponChange', CD)
+end)
