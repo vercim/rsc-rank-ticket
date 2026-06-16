@@ -12,8 +12,10 @@ Supporting generic per-player state tracking to prevent overlapping actions, and
 
 ### Structure
 The repository is divided into two parts: `System` and `Shared` (corresponding to Server and Client sides). 
-This structure is intended to make the code easier to understand. Additionally, each part includes its own README file describing and explaining its contents.
+This structure is intended to make the code easier to understand. Additionally, each part includes its own **README** file describing and explaining its contents.
 
-The total volume is approximately ~1,300 lines of code.
+The total volume is approximately **~1,300 lines** of code.
+
+> P.S. I added "Weapon Soul", it's sort of a buff. It hasn't been implemented yet and doesn't apply to you for now, but you might come across it in the code.
 
 > Ticket opened on June 17, 2026
