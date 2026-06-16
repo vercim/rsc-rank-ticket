@@ -1,5 +1,5 @@
 # rsc-rank-ticket
-Attachments for the Roblox Studio community scripter application.
+Attachments for the Roblox Studio Community scripter application.
 
 Owner: `kino.tea` (discord)
 
