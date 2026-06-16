@@ -16,4 +16,6 @@ This structure is intended to make the code easier to understand. Additionally, 
 
 The total volume is approximately **~1000 lines** of raw code.
 
-> P.S. I added "Weapon Soul", it's sort of a buff. It hasn't been implemented yet and doesn't apply to you for now, but you might come across it in the code.
+> P.S. Each weapon has the ability to easily add custom animations, but I only have 1 set of animations, so they are the same across different weapons.
+
+> P.P.S. I added "Weapon Soul", it's sort of a buff. It hasn't been implemented yet and doesn't apply to you for now, but you might come across it in the code.
