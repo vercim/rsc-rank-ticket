@@ -1,7 +1,7 @@
 # rsc-rank-ticket
 Attachments for the Roblox Studio Community scripter application.
 
-Owner: `kino.tea` (discord)
+Owner: `teathh` (discord)
 
 ### Description
 This repository contains the core of a server-authoritative melee combat system. It covers the full combat loop: client input is forwarded to the server, validated against per-player states and cooldowns, and resolved into animation-driven attacks.
